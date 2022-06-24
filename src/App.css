@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+.otherflex {
+         margin:0;
+         padding:0;
+        }
+.AppFlex{
+  display: flex;
+}
+
+/* .navappflex{
+  flex-basis: 20%;
+}
+
+@media screen and (max-width:600px) and (min-width:200px) {
+  .AppFlex {
+      display: flex;
+      width: 60%;
+    }
+        .navappflex {
+          flex-basis: 10%;
+        }
+    
+        .otherflex {
+          flex-basis: 50%;
+        }
+} */

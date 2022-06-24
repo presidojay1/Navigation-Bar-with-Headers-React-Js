@@ -1,0 +1,96 @@
+.navbarsec{
+    width: 90%;
+    margin: 18px 10px;
+    
+}
+
+@media screen and (max-width:600px) and (min-width:200px) {
+    .navbarflex {
+            display: flex;
+            flex-direction: column-reverse;
+            width: 105%;
+            margin-top: -10%;            
+        }
+    .navbarsecond{
+        background-color:blue;
+        width: 105%;
+         padding:40px;
+         margin-left: -31%;
+    }
+
+    .navbarimage{
+        position: absolute;
+        left: 35%;
+        top:3%;
+    }
+    .navbariv{
+        position: absolute;
+        left: 50%;
+        top: 3%;
+        color: white;
+    }
+    .navbarname{
+        position: absolute;
+        left: 78%;
+        top: 3%;
+    }
+.navbarSearch{
+    margin-top:2%;
+    margin-left:-20%;
+}
+.formbl
+    {
+    width:90%;
+    border-radius: 1px;
+    margin-top:20px;
+   
+}
+.searchicon{
+    position: absolute;
+    top: 36%;
+   right: 120%;
+}
+
+
+}
+.navbarflex{
+    display: flex;
+    justify-content: space-between;
+}
+.formbl{
+    padding: 10px;
+    border-radius: 20px;
+    border: 1px solid grey;
+}
+.navbarSearch{
+    position: relative;
+}
+
+.navbarsecond{
+    display: flex;
+    margin-top: 10px;
+
+}
+.searchicon{
+    position: absolute;
+    margin-top: 6px;
+   left: 83%;
+}
+.navbarimage{
+    margin-right: 15px;
+    color:rgb(87, 85, 85);
+   margin-top:-4px;
+    border-radius:12px;
+}
+.CircleNotificationsIcon{
+width: 40px !important;
+    height: 40px !important;
+}
+.navbariv{
+    margin-right: 15px;
+font-size: 15px;
+font-style: italic;
+}
+.navbarname{
+margin-top: -8px;
+}

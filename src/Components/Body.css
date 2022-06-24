@@ -1,0 +1,85 @@
+.BodySection{
+    width:95%;
+    margin: auto;
+    margin-top: 20px;
+    ovweflow-x:hidden;
+    
+}
+.firstboxdiv{
+    display: flex;
+    justify-content: space-between;
+}
+.boxdiv{
+    flex-basis: 24%;
+    border-radius:20px;
+    height:20vh;
+    background-image: linear-gradient(rgba(110, 132, 219, 0.1),rgba(21, 59, 212, 0.6)), url('https://cdn.dribbble.com/users/1080633/screenshots/6209637/judolaunch_website_-_dribbble_-_illustration_6_2x.png');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+@media screen and (max-width:600px) and (min-width:200px) {
+    .firstboxdiv{
+    display:block;
+}
+
+}
+
+.boxdiv{
+    width:95%;
+    margin-top:20px;
+    height:20vh;
+    
+}
+.textbody{
+    position: absolute;
+    left: 15%;
+    top:25%;
+    color:white;
+}
+.seconddivx{
+    display: flex;
+    width: 50%;
+    background-color: rgb(209, 205, 205);
+    margin-top: 20px;
+    justify-content: space-between;
+    padding:5px 5px;
+    border-radius: 10px;
+    overflow-x:hidden;
+}
+.avatarhead{
+    display: flex;
+    margin-right: 10px;
+    justify-content: space-between;
+    
+}
+.avatartime{
+    margin-top: 10px;
+}
+.avatardiv{
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.bigerrdiva{
+    width: 51%;
+    margin-top: 1px;
+    background-color: rgb(247, 244, 244);
+}
+.bigerrdiva p{
+    font-size: 16px;
+    margin-left: 15px;
+    font-style: italic;
+    color: black;
+}
+.profilepix{
+    border-radius: 10px;
+    margin-top: 2px;
+}
+
+.searchicons{
+    position: absolute;
+    top: 32%;
+    left: 80%;
+}

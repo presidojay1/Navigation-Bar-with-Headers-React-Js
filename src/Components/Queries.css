@@ -1,0 +1,53 @@
+       
+       @media screen and (max-width:600px) and (min-width:200px) {
+        .bigerrdiva p{
+            font-size: 16px;
+            margin-left: 15px;
+            font-style: italic;
+            color: black;
+        }
+        .BodySection{
+    margin-bottom: 100%;
+    
+}
+        .bigerrdiva{
+            width: 95%;
+            margin-top: 1px;
+            background-color: rgb(247, 244, 244);
+            margin-left:-22px;
+        }
+        .seconddivx{
+            width:90%;
+            margin-left:-22px;
+        }
+        .boxdiv{
+    width:105%;
+    margin-top:20px;
+    height:15vh;
+    margin-left:-15%;
+}
+        }
+.recentmessagediv{
+    display:flex;
+    margin-top:5px;
+}
+.recentmessagediv{
+    color:white;
+    font-weight:bold;
+}
+.Recentfeed h5{
+    color:white;
+    font-weight:bold;
+    font-size:16px;
+}
+.formble
+    {
+    width:80%;
+    margin-top:10px;
+    margin-left:10px;
+    border-radius:10px;
+    border:none;
+    padding:8px;
+   
+    margin-bottom:10px;
+}
