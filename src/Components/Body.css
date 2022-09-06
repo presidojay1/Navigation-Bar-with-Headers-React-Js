@@ -2,7 +2,7 @@
     width:95%;
     margin: auto;
     margin-top: 20px;
-    ovweflow-x:hidden;
+    
     
 }
 .firstboxdiv{
@@ -20,8 +20,23 @@
 }
 
 @media screen and (max-width:600px) and (min-width:200px) {
+    .BodySection{
+        height: 80vh;
+        padding-bottom: 20%;   
+    }
+    .biggerdivmove{
+        padding-bottom: 50px;
+    }
     .firstboxdiv{
     display:block;
+    margin-left: -10%;
+ 
+}
+.navbarSearch{
+    margin-left: 5px;
+}
+.shifabg{
+    margin-left: -20%;
 }
 
 }

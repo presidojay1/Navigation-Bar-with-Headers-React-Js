@@ -8,35 +8,36 @@
     .navbarflex {
             display: flex;
             flex-direction: column-reverse;
-            width: 105%;
-            margin-top: -10%;            
+            width: 124%;
+            margin-top: -20%;      
+            margin-left: -13%;            
         }
     .navbarsecond{
         background-color:blue;
         width: 105%;
-         padding:40px;
-         margin-left: -31%;
+        padding:40px;
+        padding-bottom: 1px;
+        margin-left: -31%;
     }
 
     .navbarimage{
-        position: absolute;
-        left: 35%;
+        position: relative;
+        left: 30%;
         top:3%;
     }
     .navbariv{
-        position: absolute;
-        left: 50%;
-        top: 3%;
+        position: relative;
+        left: 32%;
         color: white;
     }
     .navbarname{
-        position: absolute;
-        left: 78%;
+        position: relative;
+        left: 35%;
         top: 3%;
     }
 .navbarSearch{
-    margin-top:2%;
-    margin-left:-20%;
+    left: -20%;
+    width: 100%;
 }
 .formbl
     {

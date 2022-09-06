@@ -6,25 +6,23 @@
 .otherflex {
          margin:0;
          padding:0;
+         height: 100%;
         }
 .AppFlex{
   display: flex;
+  height: 100%;
 }
 
-/* .navappflex{
-  flex-basis: 20%;
-}
+
 
 @media screen and (max-width:600px) and (min-width:200px) {
-  .AppFlex {
-      display: flex;
-      width: 60%;
-    }
+.App{
+  overflow-x: hidden;
+  
+}
+
         .navappflex {
-          flex-basis: 10%;
+          margin-right: 10%;
         }
     
-        .otherflex {
-          flex-basis: 50%;
-        }
-} */
+} 
